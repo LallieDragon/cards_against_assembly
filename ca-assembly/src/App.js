@@ -15,15 +15,16 @@ class App extends Component {
               <h1>Cards <br /> Against <br /> Assembly</h1>
             </header>
             <nav>
-              <NavLink activeClassName='active' exact to='/'>Home</NavLink>
-              <NavLink activeClassName='active' to='/add'>Add a New Card</NavLink>
-              <NavLink activeClassName='active' to='/about'>About</NavLink>
+              <NavLink activeClassName='active' className='navlink' exact to='/'>Home</NavLink>
+              <NavLink activeClassName='active' className='navlink' to='/add'>Add a New Card</NavLink>
+              <NavLink activeClassName='active' className='navlink' to='/about'>About</NavLink>
             </nav>
             <Switch>
               <Route exact path='/' component={CardList} />
               <Route path='/add' component={AddNewCard} />
               <Route path='/about' />
             </Switch>
+          <footer>Made with &#128125;</footer>
           </div>
         </Router>
       </div>
