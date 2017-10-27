@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { database } from '../utils/firebase.js';
 import Card from './Card';
+import './AddNewCard.css';
 
 class AddNewCard extends Component {
   constructor(props) {

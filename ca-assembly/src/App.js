@@ -14,7 +14,7 @@ class App extends Component {
             <header>
               <h1>Cards <br /> Against <br /> Assembly</h1>
             </header>
-            <nav>
+            <nav className="nav">
               <NavLink activeClassName='active' className='navlink' exact to='/'>Home</NavLink>
               <NavLink activeClassName='active' className='navlink' to='/add'>Add a New Card</NavLink>
               <NavLink activeClassName='active' className='navlink' to='/about'>About</NavLink>
@@ -24,7 +24,7 @@ class App extends Component {
               <Route path='/add' component={AddNewCard} />
               <Route path='/about' />
             </Switch>
-          <footer>Made with &#128125;</footer>
+          <footer>Made with &#128125; Ayy Lmao</footer>
           </div>
         </Router>
       </div>

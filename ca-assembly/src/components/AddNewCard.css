@@ -1,0 +1,16 @@
+form {
+  margin: 5px 10px;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 245px;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+button {
+  width: 50px;
+  margin-left: 120px;
+  margin-top: 10px;
+}
