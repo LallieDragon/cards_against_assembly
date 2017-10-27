@@ -24,7 +24,7 @@ class App extends Component {
               <Route path='/add' component={AddNewCard} />
               <Route path='/about' />
             </Switch>
-          <footer>Made with &#128125; Ayy Lmao</footer>
+          <footer>Made with <a id='alien'>&#128125;</a> Ayy Lmao</footer>
           </div>
         </Router>
       </div>

@@ -22,9 +22,13 @@
 }
 
 header {
-  text-align: left;
+  text-align: center;
 }
 
 .nav {
   border-bottom: 1px solid black;
+  text-align: center;
+}
+footer {
+  text-align: center;
 }
